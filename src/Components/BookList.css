@@ -1,0 +1,8 @@
+.bookList {
+    display: grid;
+    margin: 20ox 20px 50px 20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 1fr;
+    grid-gap: 1em;
+    margin-left: 10px;
+}

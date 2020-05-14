@@ -1,0 +1,11 @@
+.contact_page {
+    display: grid;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    background: whitesmoke;
+}
+
+.all_text {
+    margin-left: 8px;
+}
