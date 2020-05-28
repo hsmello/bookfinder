@@ -17,7 +17,7 @@ export default function ImgMediaCard(props) {
 
   return (
     <Card className={classes.root}>
-      <CardActionArea>
+      {/* <CardActionArea> */}
         <CardMedia
           component="img"
         //   alt="Contemplative Reptile"
@@ -36,7 +36,7 @@ export default function ImgMediaCard(props) {
             {props.published}
           </Typography>
         </CardContent>
-      </CardActionArea>
+      {/* </CardActionArea> */}
 
     </Card>
   );

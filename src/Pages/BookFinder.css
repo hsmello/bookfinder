@@ -15,11 +15,32 @@
     background: whitesmoke;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 769px) and (max-width: 1465px) {
     .bookList {
-        display: grid;
-        margin: 20ox 0 50px 0;
+        display: inline-grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+    .list_div {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .searchBook {
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        padding: 10px 0px;
+    }
+
+    .list_div {
+        text-align: center;
+    }
+
+    .bookList {
+        display: inline-grid;
+        padding: 20ox 0 50px 0;
+        grid-template-columns: repeat(1, 1fr);
         grid-auto-rows: 1fr;
         grid-gap: 1em;
         background: whitesmoke;
