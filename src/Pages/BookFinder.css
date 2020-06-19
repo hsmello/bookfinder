@@ -14,14 +14,14 @@
     grid-gap: 1em;
     background: whitesmoke;
 }
+.list_div {
+    text-align: center;
+}
 
 @media (min-width: 769px) and (max-width: 1465px) {
     .bookList {
         display: inline-grid;
         grid-template-columns: repeat(2, 1fr);
-    }
-    .list_div {
-        text-align: center;
     }
 }
 
@@ -31,10 +31,6 @@
         display: inline-block;
         width: 100%;
         padding: 10px 0px;
-    }
-
-    .list_div {
-        text-align: center;
     }
 
     .bookList {
